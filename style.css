@@ -1,0 +1,29 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+.loading
+{
+
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    border: 10px solid #dddddd;
+    border-top-color: #005979;
+      border-bottom-color: #005979;
+    border-radius: 50%;
+   animation : spinner 1s linear infinite ;
+
+}
+
+
+@keyframes spinner {
+    to{
+        transform: rotate(1turn);
+    }
+    
+}
+
